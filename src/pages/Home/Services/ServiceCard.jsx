@@ -11,7 +11,7 @@ const ServiceCard = ({ service }) => {
           <h2 className="card-title font-bold">{title}</h2>
           <p className="text-[#FF3811]">Price: ${price}</p>
           <div className="card-actions justify-end">
-           <button className="text-[#FF3811]">
+           <button className="text-[hsl(10,100%,53%)] btn btn-circle bg-white border-white">
             <FaArrowRightLong/>
            </button>
           </div>{" "}

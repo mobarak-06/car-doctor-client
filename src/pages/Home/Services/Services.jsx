@@ -23,10 +23,13 @@ const Services = () => {
           believable.{" "}
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-12">
         {
             services.map(service => <ServiceCard key={service._id} service={service}/>)
         }
+      </div>
+      <div className="flex justify-center items-center mt-12">
+      <button className="btn bg-white text-[#FF3811] border-2 border-[#FF3811] hover:bg-[#FF3811] hover:text-white font-bold hover:border-[#FF3811] ">More Services</button>
       </div>
     </div>
   );

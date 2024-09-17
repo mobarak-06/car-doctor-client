@@ -28,13 +28,13 @@ const Banner = () => {
         <div className="absolute left-5 right-5 bottom-0 gap-5 flex -translate-y-1/2 transform justify-end">
           <a
             href="#slide6"
-            className="btn btn-circle hover:bg-[#FF3811] hover:text-white"
+            className="btn btn-circle hover:bg-[#FF3811] hover:text-white hover:border-[#FF3811]"
           >
             ❮
           </a>
           <a
             href="#slide2"
-            className="btn btn-circle hover:bg-[#FF3811] hover:text-white"
+            className="btn btn-circle hover:bg-[#FF3811] hover:text-white hover:border-[#FF3811]"
           >
             ❯
           </a>
@@ -61,13 +61,13 @@ const Banner = () => {
         <div className="absolute left-5 right-5 bottom-0 gap-5 flex -translate-y-1/2 transform justify-end">
           <a
             href="#slide1"
-            className="btn btn-circle hover:bg-[#FF3811] hover:text-white "
+            className="btn btn-circle hover:bg-[#FF3811] hover:text-white hover:border-[#FF3811] "
           >
             ❮
           </a>
           <a
             href="#slide3"
-            className="btn btn-circle hover:bg-[#FF3811] hover:text-white"
+            className="btn btn-circle hover:bg-[#FF3811] hover:text-white hover:border-[#FF3811]"
           >
             ❯
           </a>
@@ -94,13 +94,13 @@ const Banner = () => {
         <div className="absolute left-5 right-5 bottom-0 gap-5 flex -translate-y-1/2 transform justify-end">
           <a
             href="#slide2"
-            className="btn btn-circle hover:bg-[#FF3811] hover:text-white"
+            className="btn btn-circle hover:bg-[#FF3811] hover:text-white hover:border-[#FF3811]"
           >
             ❮
           </a>
           <a
             href="#slide4"
-            className="btn btn-circle hover:bg-[#FF3811] hover:text-white"
+            className="btn btn-circle hover:bg-[#FF3811] hover:text-white hover:border-[#FF3811]"
           >
             ❯
           </a>
@@ -127,13 +127,13 @@ const Banner = () => {
         <div className="absolute left-5 right-5 bottom-0 gap-5 flex -translate-y-1/2 transform justify-end">
           <a
             href="#slide3"
-            className="btn btn-circle hover:bg-[#FF3811] hover:text-white"
+            className="btn btn-circle hover:bg-[#FF3811] hover:text-white hover:border-[#FF3811]"
           >
             ❮
           </a>
           <a
             href="#slide5"
-            className="btn btn-circle hover:bg-[#FF3811] hover:text-white"
+            className="btn btn-circle hover:bg-[#FF3811] hover:text-white hover:border-[#FF3811]"
           >
             ❯
           </a>
@@ -160,13 +160,13 @@ const Banner = () => {
         <div className="absolute left-5 right-5 bottom-0 gap-5 flex -translate-y-1/2 transform justify-end">
           <a
             href="#slide4"
-            className="btn btn-circle hover:bg-[#FF3811] hover:text-white"
+            className="btn btn-circle hover:bg-[#FF3811] hover:text-white hover:border-[#FF3811]"
           >
             ❮
           </a>
           <a
             href="#slide6"
-            className="btn btn-circle hover:bg-[#FF3811] hover:text-white"
+            className="btn btn-circle hover:bg-[#FF3811] hover:text-white hover:border-[#FF3811]"
           >
             ❯
           </a>
@@ -193,13 +193,13 @@ const Banner = () => {
         <div className="absolute left-5 right-5 bottom-0 gap-5 flex -translate-y-1/2 transform justify-end">
           <a
             href="#slide5"
-            className="btn btn-circle hover:bg-[#FF3811] hover:text-white"
+            className="btn btn-circle hover:bg-[#FF3811] hover:text-white hover:border-[#FF3811]"
           >
             ❮
           </a>
           <a
             href="#slide1"
-            className="btn btn-circle hover:bg-[#FF3811] hover:text-white"
+            className="btn btn-circle hover:bg-[#FF3811] hover:text-white hover:border-[#FF3811]"
           >
             ❯
           </a>
