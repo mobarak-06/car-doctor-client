@@ -3,7 +3,7 @@ import logo from "../../assets/logo.svg";
 import { useContext } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
 const Navbar = () => {
-  const {logOut} = useContext(AuthContext);
+  const {logOut, user} = useContext(AuthContext);
   const navItem = (
     <>
       <li>
@@ -21,6 +21,9 @@ const Navbar = () => {
       <li>
         <Link>Contact</Link>
       </li>
+      {
+        user?.email && <li><Link to="/bookings">My Bookings</Link></li>
+      }
     </>
   );
 
@@ -68,7 +71,12 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navItem}</ul>
         </div>
         <div className="navbar-end">
-          <Link onClick={() => handleSignOut()} className="btn bg-white rounded-md px-3.5 py-2 m-1 overflow-hidden relative group cursor-pointer border-2 font-medium border-[#FF3811] text-[#FF3811] hover:text-white hover:border-[#FF3811]">
+          <div>
+            {
+              user ? <h4 onClick={() => handleSignOut()}>LogOut </h4> : <Link to="/login" className="mr-6">Login</Link>
+            }
+          </div>
+          <Link className="btn bg-white rounded-md px-3.5 py-2 m-1 overflow-hidden relative group cursor-pointer border-2 font-medium border-[#FF3811] text-[#FF3811] hover:text-white hover:border-[#FF3811]">
             <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-[#FF3811] top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
             <span className="relative text-[#FF3811] transition duration-300 group-hover:text-white ease">
               Appointment
